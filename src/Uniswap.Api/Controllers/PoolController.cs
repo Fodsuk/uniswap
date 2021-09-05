@@ -50,7 +50,7 @@ namespace Uniswap.Api.Controllers
 
             return Ok(new
             {
-                TotalVolume = 0
+                TotalVolume = totalVolume
             });
         }
     }
